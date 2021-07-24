@@ -1,0 +1,25 @@
+ALGORITHM 
+VAR
+    c : CHAR := '';
+   nbr_word : INTEGER := 0;
+   nbr_char : INTEGER := 0;
+   nbr_vowels : INTEGER := 0;
+BEGIN
+    WHILE (c <> '.') DO
+        Read(c);
+       IF (c=' ') THEN
+            nb_word := nb_word +1;
+        END_IF
+
+        nb_char := nb_char +1;
+        IF (c = 'a' OR c='e' OR c='i' OR c='o' OR c='u' OR c='y') THEN
+            nb_vow := nb_vow +1;
+        END_IF
+        
+    END_WHILE
+
+    Write("The number of words in the sentence is ",nbr_word+1);
+    Write("The length of the sentence is ",nbr_char);
+    Write("he number of vowels in the sentence. is ",nbr_vowels);
+
+ 
