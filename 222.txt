@@ -1,0 +1,29 @@
+  function checkSentence(str) {
+        // Calculthe length .
+        var len = str.length;
+
+*************
+check string (A-Z)
+sinon false
+if (
+         
+        )
+          return false;
+*************
+check string final point (full stop)
+ if (str[length - 1] == ".") return false;
+
+***************
+check words in string 
+while no space run
+then return word 
+****************
+check vowels
+if(str[i]==’a’ || str[i]==’e’ || str[i]==’i’ ||
+str[i]==’o’ || str[i]==’u’ || str[i]==’A’ ||
+str[i]==’E’ || str[i]==’I’ || str[i]==’O’ ||
+str[i]==’U’)
+{
+++vowels;
+}
+ 
